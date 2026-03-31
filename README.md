@@ -39,7 +39,7 @@ mkdir claude && cd claude
 # 2. Download the extraction script (public gist by @sorrycc)
 curl -O https://gist.githubusercontent.com/sorrycc/d77bcc8c2bfd0ac04d8d6ad98c413905/raw/extract-claude-code.mjs
 
-# 3. Run the script to extract v2.1.88 (the leaked version)
+# 3. Run the script to extract v2.1.88 
 bun extract-claude-code.mjs 2.1.88
 # Or with Node.js if Bun is not installed:
 # node --experimental-fetch --experimental-import-meta-resolve extract-claude-code.mjs 2.1.88
